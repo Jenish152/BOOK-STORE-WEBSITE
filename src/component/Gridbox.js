@@ -3,28 +3,28 @@ import { Button,Grid,Paper } from "@material-ui/core";
 
 const fun2=()=>{
     let no=prompt("enter number : 1 2 3 4")
-    if(no=="1")
+    if(no==="1")
     {
         document.getElementById("1").style.backgroundColor="red";
         document.getElementById("2").style.backgroundColor="lightgreen";
         document.getElementById("3").style.backgroundColor="lightgreen";
         document.getElementById("4").style.backgroundColor="lightgreen";
     }
-    if(no=="2")
+    if(no==="2")
     {
         document.getElementById("1").style.backgroundColor="lightgreen";
         document.getElementById("2").style.backgroundColor="red";
         document.getElementById("3").style.backgroundColor="lightgreen";
         document.getElementById("4").style.backgroundColor="lightgreen";
     }
-    if(no=="3")
+    if(no==="3")
     {
         document.getElementById("1").style.backgroundColor="lightgreen";
         document.getElementById("2").style.backgroundColor="lightgreen";
         document.getElementById("3").style.backgroundColor="red";
         document.getElementById("4").style.backgroundColor="lightgreen";
     }
-    if(no=="4")
+    if(no==="4")
     {
         document.getElementById("1").style.backgroundColor="lightgreen";
         document.getElementById("2").style.backgroundColor="lightgreen";

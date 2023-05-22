@@ -28,6 +28,9 @@ export const Navbar = ()=>{
         <li className="nav-item">
           <Link className="nav-link active" to="/grid">Grid</Link>
         </li>
+        <li className="nav-item">
+          <Link className="nav-link active" to="/custom">Custometheme</Link>
+        </li>
       </ul>
     </div>
   </div>
